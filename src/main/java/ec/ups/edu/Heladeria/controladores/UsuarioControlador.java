@@ -36,7 +36,7 @@ public class UsuarioControlador {
 
 
 
-    @GetMapping("/iniciarSesion")
+    @PostMapping("/iniciarSesion")
     public ResponseEntity<Cliente> getUsuarioIiciado(@RequestBody  IniciarSesion iniciarS, HttpSession httpSession){
 
         Optional<Cliente> usuarioOptional = Optional.ofNullable(usuarioServicio.iniciarsesion(iniciarS.getCorreo(),iniciarS.getContrasenia()));
