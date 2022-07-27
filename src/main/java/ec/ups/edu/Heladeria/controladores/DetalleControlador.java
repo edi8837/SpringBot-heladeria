@@ -54,7 +54,7 @@ public class DetalleControlador {
 
 
 
-svx
+
         Detalle detalle = new Detalle();
 
 
