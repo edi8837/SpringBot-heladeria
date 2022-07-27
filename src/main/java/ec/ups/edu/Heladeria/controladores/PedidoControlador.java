@@ -153,7 +153,7 @@ public class PedidoControlador {
 
         for (int x = 0; x < detalles.size(); x++) {
 
-            Detalle d = detalles.get(x);
+                Detalle d = detalles.get(x);
             d.setPedido(pedido);
             detalleServicio.Crear(d);
         }
