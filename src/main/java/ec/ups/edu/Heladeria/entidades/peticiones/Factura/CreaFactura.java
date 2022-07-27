@@ -2,7 +2,7 @@ package ec.ups.edu.Heladeria.entidades.peticiones.Factura;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import ec.ups.edu.Heladeria.entidades.Pedido;
-import jakarta.persistence.OneToOne;
+import javax.persistence.OneToOne;
 
 import java.util.Date;
 

@@ -1,7 +1,7 @@
 package ec.ups.edu.Heladeria.entidades;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.util.List;
 import java.util.Objects;

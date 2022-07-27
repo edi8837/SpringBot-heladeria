@@ -1,7 +1,7 @@
 package ec.ups.edu.Heladeria.entidades.peticiones.producto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.Transient;
+import javax.persistence.Transient;
 
 public class CrearProducto {
 
