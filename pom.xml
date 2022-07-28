@@ -8,11 +8,11 @@
 		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ec.ups.edu</groupId>
+	<!--	<groupId>ec.ups.edu</groupId>-->
 	<artifactId>Heladeria</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<!--	<version>0.0.1-SNAPSHOT</version>-->
 	<packaging>war</packaging>
-	<name>Heladeria</name>
+	<!--<name>Heladeria</name> -->
 	<description>Aplicacion para Heladeria</description>
 	<properties>
 		<java.version>11</java.version>
