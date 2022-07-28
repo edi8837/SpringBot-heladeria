@@ -1,16 +1,28 @@
 package ec.ups.edu.Heladeria;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-@SpringBootApplication
-public class HeladeriaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HeladeriaApplication.class, args);
-	}
 
-}
+    @SpringBootApplication
+    public class HeladeriaApplication extends SpringBootServletInitializer {
+
+        @Override
+        protected SpringApplicationBuilder configure(SpringApplicationBuilder builder){
+            return builder.sources(HeladeriaApplication.class);
+        }
+
+        public static void main(String[] args) {
+            SpringApplication.run(HeladeriaApplication.class, args);
+        }
+
+    }
+
+
 
 
 
