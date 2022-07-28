@@ -11,7 +11,7 @@
 	<!--	<groupId>ec.ups.edu</groupId>-->
 	<artifactId>Heladeria</artifactId>
 	<!--	<version>0.0.1-SNAPSHOT</version>-->
-	<packaging>war</packaging>
+
 	<!--<name>Heladeria</name> -->
 	<description>Aplicacion para Heladeria</description>
 	<properties>
